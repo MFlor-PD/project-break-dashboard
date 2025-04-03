@@ -20,6 +20,7 @@ const setPassword = (length = 12) => {
     }
      
     password = password.split('').sort(() => Math.random() - 0.5).join('');           // Toma todo lo que hay en pasword, lo divide, lo mezcla y lo vuelve a unir
+    
     displayPassword.innerHTML = `
     <div>
     <p>Tu nueva constraseña es: </p>
