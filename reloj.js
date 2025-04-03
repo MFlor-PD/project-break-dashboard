@@ -22,6 +22,7 @@ function setClock() {
     let day = currentDate.getDate();
     let month = currentDate.getMonth() + 1;
     let year = currentDate.getFullYear();
+    
     let phrase = getPhrases(hours, minutes);
 
     ({ hours, minutes, seconds, day, month } = fixTimeAndDate(hours, minutes, seconds, day, month));
