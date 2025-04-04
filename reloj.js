@@ -1,7 +1,7 @@
-container = document.getElementById('container');
+relojContainer = document.getElementById('reloj-container');
 const setPhrases = [
     {start: 0, end: 7.99, phrase: 'A dormir cabrones!'},
-    {start: 8, end: 10.99, phrase: 'Y ahora seguro que no te puedes levantar de la cama, venga hombre!'},
+    {start: 8, end: 10.99, phrase: 'Y ahora seguro que no te puedes levantar de la cama, venga hombre! Alguien tiene que sacar el pais adelante!'},
     {start: 11, end: 14.99, phrase: 'Que... encima estas pensando en comer??, de trabajar ni hablamos eh?'},
     {start: 15, end: 18.99, phrase: 'Ni se te ocurra pensar en la siesta!'},
     {start: 19, end: 21.99, phrase: 'y si...salen unas cañitas??'},
@@ -30,7 +30,7 @@ function setClock() {
     const time = `${hours} : ${minutes} : ${seconds} `;
     const date = `${day} / ${month} / ${year}`;
                                                                 
-    container.innerHTML = `
+    relojContainer.innerHTML = `
     <div class="time">${time}</div>
     <div><p class="phrases">${phrase}</P></div>
     <div class="date">${date}</div>`;

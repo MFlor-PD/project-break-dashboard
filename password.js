@@ -43,7 +43,7 @@ displayPassword.innerHTML = `
     <div>
       <p>Tu nueva constraseña es: </p>
       <div class='password-display'>${getPassword}</div>
-      <p>No olvides guardarla en un lugar seguro para que no se te olvide</p>
+      <p>Guardarla en un lugar seguro para que no se te olvide!</p>
     </div>`
 }
 //eventos de click
