@@ -50,3 +50,8 @@ ulList.addEventListener('click', (e) => {
         renderizar(saveLinks); 
     }
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const storedData = localStorage.getItem("data");
+    const saveLinks = storedData ? JSON.parse(storedData) : [];
+    renderizar(saveLinks);
+  });
