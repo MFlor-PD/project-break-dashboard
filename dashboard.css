@@ -78,24 +78,13 @@ section {
     align-items: flex-start;
     height: auto;
 }
-#clock-section .reloj-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 40em;
-    height: auto;
-    background-color: #2e2a2a;
-    padding: 1em;
-    border-radius: 10px;
-    color:#fff;
-}
+
 .reloj-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 40em;
+    width: 200px;
     height: auto;
     background-color: #2e2a2a;
     padding: 1em;
@@ -104,7 +93,6 @@ section {
 }
 #reloj-container .date, .time, .phrases {
     padding: 2%;
-    border: #fff solid 1px; 
 }
 .date {
     margin-bottom: 1em;
@@ -117,33 +105,163 @@ section {
     margin-top: 1em;
 }
 
+
+.weather-section {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto; 
+}
 .weather-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100em;
+    width: 320px;
     height: auto;
     background-color: violet;
+    padding: 1em;
+    border-radius: 10px;
+}
+.current-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    padding: 1px;
+    padding-right:11px;
+    padding-left: 12px;
+    border-radius: 10px;
+    margin-left: 2px;
+}
+.current-weather h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 70px;
+    margin-right: 240px;
+}
+.current-data{
+    display: flex;
+}
+.current-degrees img {
+    width: 5em;
+    height: 5em;
+    margin-right: 21em;
+    margin-top: 10px;
+}
+.current-degrees p {
+    padding: 0.5em;
+    margin-right: 21em;
+    text-align: center;
+}
+.weather-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10em;
+    height: auto;
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: -290px;
 }
 .hourly-forecast-container{
     display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
+    overflow-x: scroll;
+    width: 315px;
+    height: 10em;
     align-items: center;
-    width: 100em;
-    height: auto;
-    background-color: rgba(97, 67, 104, 0.801);
 }
+.hourly-forecast {
+    text-align: center;
+    margin-top: 1em;
+    width: 5em;
+    padding: 0.5em;
+}
+.hourly-forecast .time {
+    text-align: center;
+    margin-top: 1em;
+    width: 5em;
+    border: none;;
+}
+
+
+
 .password-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100em;
     height: auto;
-    background-color: blue;
+    border: 1px solid black;
+    padding: 70px;
+    width: 10em;
+    margin-top: -635px;
+    
 }
+#password-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
+.password-input {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.password-input input {
+    width: 35px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: -3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 85px;
+    height: auto;
+    background-color: #2e2a2a;
+    padding: 6px;
+    border-radius: 10px;
+    color:#fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.display-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    border-radius: 10px;
+    color:#fff;
+    margin-bottom: -3em;
+}
+.new-password {
+    margin-bottom: 12px;
+}
+.password-display{
+    margin-bottom: 12px;
+
+}
+.recommendation {
+    margin-bottom: 12px;
+}
+
 .links-container {
     display: flex;
     justify-content: center;
@@ -152,4 +270,33 @@ section {
     width: 100em;
     height: auto;
     background-color:chartreuse;
+    padding: 1em;
+}
+.storage-btn {
+    width: 85px;
+    height: auto;
+    background-color: #2e2a2a;
+    padding: 6px;
+    border-radius: 10px;
+    color:#fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#input .escribe-url {
+    width: 9em;
+    padding: 5px;
+    margin-bottom: 13px;
+    margin-top: -3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+#input .escribe-nombre {
+    width: 9em;
+    padding: 5px;
+    margin-bottom: 13px;
+    margin-top: -3px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
 }

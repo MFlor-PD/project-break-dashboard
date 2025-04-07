@@ -41,9 +41,9 @@ const getPassword = setPassword(passwordLength);
 
 displayPassword.innerHTML = `
     <div>
-      <p>Tu nueva constraseña es: </p>
+      <p class='new-password'>Tu nueva constraseña es: </p>
       <div class='password-display'>${getPassword}</div>
-      <p>Guardarla en un lugar seguro para que no se te olvide!</p>
+      <p class'recommendation'>Guardarla en un lugar seguro para que no se te olvide!</p>
     </div>`
 }
 //eventos de click
