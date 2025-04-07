@@ -31,9 +31,10 @@ function setClock() {
     const date = `${day} / ${month} / ${year}`;
                                                                 
     relojContainer.innerHTML = `
+    <div class="date">${date}</div>
     <div class="time">${time}</div>
     <div><p class="phrases">${phrase}</P></div>
-    <div class="date">${date}</div>`;
+    `;
 }
 
 setInterval(setClock, 1000);

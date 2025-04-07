@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    text-shadow: #511717 0px 0px 5px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2e2a2a;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-family:fantasy;
+    letter-spacing: 1px;
+    text-decoration: solid;
+    background-color: aqua;
+}
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: red;
+    padding: 20px;
+}
+.clock-section {
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: auto;
+}
+#clock-section .reloj-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40em;
+    height: auto;
+    background-color: #2e2a2a;
+    padding: 1em;
+    border-radius: 10px;
+    color:#fff;
+}
+.reloj-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40em;
+    height: auto;
+    background-color: #2e2a2a;
+    padding: 1em;
+    border-radius: 10px;
+    color:#fff;
+}
+#reloj-container .date, .time, .phrases {
+    padding: 2%;
+    border: #fff solid 1px; 
+}
+.date {
+    margin-bottom: 1em;
+}
+
+.phrases {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100em;
+    height: auto;
+    background-color: violet;
+}
+.hourly-forecast-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100em;
+    height: auto;
+    background-color: rgba(97, 67, 104, 0.801);
+}
+.password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100em;
+    height: auto;
+    background-color: blue;
+}
+.links-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100em;
+    height: auto;
+    background-color:chartreuse;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>My Dashboard-Project</title>
+</head>
+<body>
+ <main>
+    <h1>Welcome to My Dashboard-Project</h1>
+    <section id="clock-section" class="clock-section">
+            <div id="reloj-container" class="reloj-container">
+            </div>
+    </section>
+    <section id="weather-section" class="weather-section">
+        <div class="weather-container" id="weather-container">
+            <div class="current-weather-container" id="current-weather-container">
+            </div>
+            <div class="hourly-forecast-container" id="hourly-forecast-container">
+            </div>
+        </div>
+    </section>
+    <section id="password-section" class="password-section">
+        <div class="password-container" id="password-container">
+            <div  class="title" id="title">
+                <h2>Crea tu Contraseña</h2>
+            </div>
+            <div>
+            <input type="number" id="pass-lenght" min="12" max="50" value="12">
+            <button class="btn" id ="btn">Generar Contraseña</button>
+            <div class="display-password" id="display-password"></div>
+            </div>
+        </div>
+    </section>
+    <section id="links-section" class="links-section">
+        <div id="links-container" class="links-container">
+            <div class="title" id="title">
+               <h1>Lista de Links</h1>
+            </div>
+            <div class="input" id="input">
+               <input type="text" id="escribe-url" class="escribe-url" placeholder="Escribe aquí tu URL">
+               <input type="text" id="escribe-nombre" class="escribe-nombre" placeholder="Ponle nombre al link">
+               <button id="storage-btn" class="storage-btn">Guardar</button>
+            </div>
+            <div class="Ulcontainer" id="Ulcontainer">
+               <ul id="ul" class="ul"></ul>
+            </div>                     
+        </div>
+    </section>    
+ </main>
+    <script src="main.js"></script>
+    <script src="./reloj.js"></script>
+    <script src="./meteo.js"></script>
+    <script src="./password.js"></script> 
+    <script src="./links.js"></script>
+</body>
+</html>
