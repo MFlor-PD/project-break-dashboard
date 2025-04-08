@@ -31,6 +31,9 @@ function setClock() {
     const date = `${day} / ${month} / ${year}`;
                                                                 
     relojContainer.innerHTML = `
+    <a href="relojdigital.html" target="_blank" class="expand-icon">
+     <img src="./Icons/clock-Icon.png" alt="clock-Icon"/>
+    </a>
     <div class="date">${date}</div>
     <div class="time">${time}</div>
     <div><p class="phrases">${phrase}</P></div>
