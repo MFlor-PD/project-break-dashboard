@@ -367,7 +367,18 @@ section {
     margin-bottom: -19px;
   }
 
+  header {
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: #ccc;
+    text-decoration: none;
+  }
   header img {
-    width: 30px;
+    width: 60px;
+  }
+  
+  header h3 {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
   }
   
