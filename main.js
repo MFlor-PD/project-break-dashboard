@@ -4,7 +4,6 @@ const img = [
   "images/cody-boileau-Powgsxla7Es-unsplash.jpg",
   "images/daniel-j-schwarz-UK-EzGvEZIk-unsplash (1).jpg",
   "images/david-clode-gCNEUzIQ4bI-unsplash.jpg",
-  "images/howard-senton-eY3n72NcIUo-unsplash.jpg",
   "images/kevin-grieve-wZyHpLToZrI-unsplash.jpg",
   "images/martin-bennie-pUOW-fNcNZ0-unsplash.jpg",
   "images/nicolas-pinilla-9laXSn5FeSM-unsplash.jpg",
