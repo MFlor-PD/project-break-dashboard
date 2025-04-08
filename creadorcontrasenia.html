@@ -13,16 +13,30 @@
             <h3>Fly Home</h3>
         </a>
     </header>
-    <div class="password-container" id="password-container">
-        <div  class="title" id="title">
-            <h2>Crea tu Contraseña</h2>
+    <section id="password-section" class="password-section">
+        <div class="password-container" id="password-container">
+                <div  class="password-title" id="password-title">
+                  <h2>Crea tu Contraseña</h2>
+                </div>
+            <div class="password-input" id="password-input">
+                <input type="number" id="pass-lenght" min="12" max="50" value="12">
+                <button class="btn" id ="btn">Generar Contraseña</button>
+                <div class="display-password" id="display-password"></div>
+            </div>
         </div>
-        <div>
-        <input type="number" id="pass-lenght" min="12" max="50" value="12">
-        <button class="btn" id ="btn">Generar Contraseña</button>
-        <div class="display-password" id="display-password"></div>
-        </div>
-    </div>
+    </section>
+    <footer class="footer">
+        <nav>
+        <a href="relojdigital.html">
+        <img src="./Icons/clock-Icon.png" alt="clock"></a>
+
+         <a href="estacionmeteorologica.html">
+         <img src="./Icons/nubeIcon.png" alt="cloud"></a>
+ 
+         <a href="listadolinks.html">
+         <img src="./Icons/linkIcon.png" alt="chain"></a>
+        </nav>
+     </footer>
     <script src="password.js"></script>
     <script src="main.js"></script>
 </body>

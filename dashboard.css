@@ -73,6 +73,7 @@ section {
     width: 100%;
     height: auto;
     padding: 20px;
+    position: relative;
 }
 .clock-section {
     justify-content: flex-start;
@@ -104,7 +105,6 @@ section {
     text-align: center;
     margin-top: 1em;
 }
-
 
 .weather-section {
     justify-content: flex-start;
@@ -381,4 +381,14 @@ section {
     text-decoration: none;
     font-weight: bold;
   }
-  
+  footer{
+  background-color: rgba(0, 0, 0, 0.6); 
+  border-radius: 5px; 
+  bottom: 0; 
+  left: 0; 
+  right: 90%; 
+  position: absolute;
+}
+footer nav a img {
+    filter: invert(100%);
+}
