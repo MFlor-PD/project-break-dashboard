@@ -61,7 +61,6 @@ h1 {
     font-family:fantasy;
     letter-spacing: 1px;
     text-decoration: solid;
-    background-color: aqua;
 }
 section {
     display: flex;
@@ -70,7 +69,6 @@ section {
     flex-direction: column;
     width: 100%;
     height: auto;
-    background-color: red;
     padding: 20px;
 }
 .clock-section {
@@ -84,12 +82,11 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 200px;
+    width: 400px;
     height: auto;
-    background-color: #2e2a2a;
     padding: 1em;
     border-radius: 10px;
-    color:#fff;
+    color:#1b0c0c96;
 }
 #reloj-container .date, .time, .phrases {
     padding: 2%;
@@ -118,9 +115,10 @@ section {
     flex-direction: column;
     width: 320px;
     height: auto;
-    background-color: violet;
     padding: 1em;
     border-radius: 10px;
+    margin-left: 635px;
+    margin-top: -270px;
 }
 .current-weather {
     display: flex;
@@ -197,7 +195,8 @@ section {
     border: 1px solid black;
     padding: 70px;
     width: 10em;
-    margin-top: -635px;
+    margin-top: -410px;
+    margin-left: 1110px;
     
 }
 #password-title {
@@ -269,7 +268,6 @@ section {
     flex-direction: column;
     width: 100em;
     height: auto;
-    background-color:chartreuse;
     padding: 1em;
 }
 .storage-btn {
@@ -292,7 +290,7 @@ section {
     font-size: 14px;
 }
 #input .escribe-nombre {
-    width: 9em;
+    width: 10em;
     padding: 5px;
     margin-bottom: 13px;
     margin-top: -3px;
