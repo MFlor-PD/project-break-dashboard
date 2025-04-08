@@ -315,10 +315,10 @@ section {
   }
   
   .password-container {
-  
     background-color: rgba(100, 100, 100, 0.5); 
     color: white; 
   }
+
   .links-container {
     background-color: rgba(0, 0, 0, 0.6); 
     color: white;
@@ -342,4 +342,11 @@ section {
     width: 25px; 
     height: auto; 
     filter: invert(100%);
+  }
+  
+  .weather-container a.expand-icon img {
+    width: 25px; 
+    height: auto; 
+    filter: invert(100%);
+    margin-left: 290px;
   }
