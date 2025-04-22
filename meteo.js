@@ -1,4 +1,4 @@
-const URLFORECAST = 'https://api.weatherapi.com/v1/forecast.json?key=3f525e740e854af2b7194617250504&q=Valencia,ES&days=1&lang=es'
+const URLFORECAST = 'https://api.weatherapi.com/v1/forecast.json?key=839b0c81532247d99e0175146252204&q=Valencia,ES&days=1&lang=es'
 const CURRENTWEATHERCONTAINER = document.getElementById('current-weather-container')
 const HOURLYFORECASTCONTAINER = document.getElementById('hourly-forecast-container')
 
